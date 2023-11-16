@@ -1098,6 +1098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 1767192439}
+  powerUpSpeedMultiplier: 2
+  powerUpDuration: 10
   m_OriginBaseGameObject: {fileID: 1717954561962503725}
   m_CameraFloorOffsetObject: {fileID: 1680501586}
   m_RequestedTrackingOriginMode: 0
