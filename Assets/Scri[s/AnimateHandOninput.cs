@@ -22,7 +22,7 @@ public class AnimateHandOninput : MonoBehaviour
     {
         float triggerValue = pinchAnimatorAction.action.ReadValue<float>();
         handAnimator.SetFloat("Trigger", triggerValue);
-        Debug.Log(triggerValue);
+       
 
         float gripValue = gripAnimationAction.action.ReadValue<float>();
         handAnimator.SetFloat("Grip", gripValue);
